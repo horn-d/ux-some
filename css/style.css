@@ -5,22 +5,33 @@ body {
     box-sizing: border-box;
 }
 
-article {
+/* arrow back */
+
+.arrow {
+    position: absolute;
+    right: 10%;
+    font-size: 5em;
+    text-decoration: none;
+}
+
+
+/*  Frontpage */
+.fp article {
     position: absolute;
     width: 50%;
     height: 100%;
 }
 
-article h1 {
+.fp article h1 {
     text-align: center;
 }
 
-.nyheder {
+.fp .nyheder {
     background-color: lightgoldenrodyellow;
     margin: 5%;
 }
 
-.buttons {
+.fp .buttons {
     right: 20%;
     ;
     display: flex;
@@ -29,8 +40,29 @@ article h1 {
     justify-content: space-evenly;
 }
 
-a {
+.fp a {
     background-color: lightgoldenrodyellow;
     text-align: center;
     text-decoration: none;
+}
+
+
+
+/* udstyr */
+
+.ud {
+
+}
+
+
+/* udlån */
+
+.ul {
+
+}
+
+/* anbefalinger */
+
+.ab {
+
 }

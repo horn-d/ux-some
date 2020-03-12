@@ -16,14 +16,14 @@ body {
     color: #7aadb4;
     font-weight: bolder;
     font-family: sans-serif;
-    }
+}
 
 
 /*  Frontpage */
 .fp article {
     position: absolute;
-    width: 50%;
-    height: 100%;
+    width: 40%;
+    height: 80%;
 }
 
 .fp article h1 {
@@ -32,12 +32,10 @@ body {
 
 .fp .nyheder {
     background-color: #f5d05e;
-    margin: 5%;
+    margin: 4%;
 }
 
 .fp .buttons {
-    right: 20%;
-    ;
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -45,28 +43,48 @@ body {
 }
 
 .fp a {
-    background-color: #f5d05e;
     text-align: center;
     text-decoration: none;
+    line-height: 200px;
+    color: white;
+    background-color: #7aadb4;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
 }
 
+.fp .left {
+    position: fixed;
+    right: 30%;
+}
+
+.fp .right {
+    position: fixed;
+    right: 10%;
+}
+
+.fp .one {
+    top: 10%
+}
+
+.fp .two {
+    top: 40%;
+}
+
+.fp .three {
+    bottom: 10%;
+}
 
 
 /* udstyr */
 
-.ud {
-
-}
+.ud {}
 
 
 /* udlån */
 
-.ul {
-
-}
+.ul {}
 
 /* anbefalinger */
 
-.ab {
-
-}
+.ab {}

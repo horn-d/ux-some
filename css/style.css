@@ -1,0 +1,36 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+}
+
+article h1 {
+    text-align: center;
+}
+
+.nyheder {
+    background-color: lightgoldenrodyellow;
+    margin: 5%;
+}
+
+.buttons {
+    right: 20%;
+    ;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: space-evenly;
+}
+
+a {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    text-decoration: none;
+}

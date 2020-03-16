@@ -1,3 +1,7 @@
+/* colors
+yellow: #f5d05e
+blue: #7aadb4 */
+
 html,
 body {
     margin: 0;
@@ -31,7 +35,7 @@ body {
 }
 
 .fp .nyheder {
-    background-color: #f5d05e;
+    border: 5px solid #f5d05e;
     margin: 4%;
 }
 
@@ -40,38 +44,35 @@ body {
     flex-direction: column;
     width: 20%;
     justify-content: space-evenly;
+    font-size: 1.7em;
 }
 
 .fp a {
     text-align: center;
     text-decoration: none;
-    line-height: 200px;
+    line-height: 250px;
     color: white;
-    background-color: #7aadb4;
+    background-color: #f5d05e;
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
-}
-
-.fp .left {
-    position: fixed;
-    right: 30%;
-}
-
-.fp .right {
-    position: fixed;
-    right: 10%;
+    height: 250px;
+    width: 250px;
 }
 
 .fp .one {
+    position: fixed;
+    right: 35%;
     top: 10%
 }
 
 .fp .two {
-    top: 40%;
+    position: fixed;
+    top: 20%;
+    right: 10%;
 }
 
 .fp .three {
+    position: fixed;
+    right: 25%;
     bottom: 10%;
 }
 

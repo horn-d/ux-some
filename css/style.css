@@ -36,7 +36,8 @@ body {
 
 .fp .nyheder {
     border: 5px solid #f5d05e;
-    margin: 4%;
+    margin: 10% 4%;
+    height: 60%;
 }
 
 .fp .buttons {

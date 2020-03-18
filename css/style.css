@@ -15,10 +15,11 @@ body {
 
 .logo {
     width: 20%;
-    position: fixed;
+    position: absolute;
+    top: 0;
 }
 
-/* undersider */
+/* UNDERSIDER */
 
 .arrow {
     position: fixed;
@@ -31,13 +32,13 @@ body {
 }
 
 .u article h1 {
-    position:fixed;
+    position:absolute;
     top: 1em;
     right: 47%;
 }
 
 
-/*  Frontpage */
+/*  FRONTPAGE */
 
 .fp article {
     position: absolute;
@@ -75,8 +76,15 @@ body {
     border-radius: 12px;
 }
 
+/* UDLÅN */
 
-/* udstyr */
+.ul {}
+
+/* ANBEFALINGER */
+
+.ab {}
+
+/* UDSTYR */
 
 .ud article {
     display: flex;
@@ -88,21 +96,45 @@ body {
 .ud .oversigt a {
     background-color: #7aadb4;
     border-radius: 12px;
-    width: 30%;
+    width: 40%;
     margin: 2%;
     text-align: center;
     color: white;
+
+    text-decoration: none;
 }
 
 .ud .oversigt img {
-    width: 70%;
+    width: 50%;
+
     padding: 5%;
 }
 
-/* udlån */
+/* UDSTYR UNDERSIDER */
 
-.ul {}
 
-/* anbefalinger */
+.uds article {
+    width: 50%;
+    margin: auto;
+    margin-top: 6%;
+}
 
-.ab {}
+.uds section {
+    background-color: #7aadb4;
+    border-radius: 12px;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+.uds section img {
+    width: 40%;
+    margin: 5%;
+}
+
+.ka section h3 {
+    width: 50%;
+    height: 1em;
+}
+

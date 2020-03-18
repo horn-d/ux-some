@@ -8,9 +8,17 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: lucida sans;
+    background-image: url(/image/boblergule.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
-/* arrow back */
+.logo {
+    width: 20%;
+    position: fixed;
+}
+
+/* undersider */
 
 .arrow {
     position: fixed;
@@ -22,12 +30,19 @@ body {
     font-family: sans-serif;
 }
 
+.u article h1 {
+    position:fixed;
+    top: 1em;
+    right: 47%;
+}
+
 
 /*  Frontpage */
+
 .fp article {
     position: absolute;
     width: 40%;
-    height: 80%;
+    height: 100%;
 }
 
 .fp article h1 {
@@ -35,9 +50,11 @@ body {
 }
 
 .fp .nyheder {
-    border: 5px solid #f5d05e;
-    margin: 10% 4%;
-    height: 60%;
+    background-color: #7aadb4;
+    border-radius: 12px;
+    margin: 10% 4% 4% 4%;
+    height: 70%;
+    color: white;
 }
 
 .fp .buttons {
@@ -46,44 +63,40 @@ body {
     width: 20%;
     justify-content: space-evenly;
     font-size: 1.7em;
+    right: 20%;
 }
 
 .fp a {
+    color: white;
+    background-color: #7aadb4;
     text-align: center;
     text-decoration: none;
-    line-height: 250px;
-    color: white;
-    background-color: #f5d05e;
-    border-radius: 50%;
-    height: 250px;
-    width: 250px;
-}
-
-.fp .one {
-    position: fixed;
-    right: 35%;
-    top: 10%
-}
-
-.fp .two {
-    position: fixed;
-    top: 20%;
-    right: 10%;
-}
-
-.fp .three {
-    position: fixed;
-    right: 25%;
-    bottom: 10%;
+    padding: 1em;
+    border-radius: 12px;
 }
 
 
 /* udstyr */
 
-.ud {}
+.ud article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5% 20% 0% ;
+}
 
-.ud img {
-    width: 50%;
+.ud .oversigt a {
+    background-color: #7aadb4;
+    border-radius: 12px;
+    width: 30%;
+    margin: 2%;
+    text-align: center;
+    color: white;
+}
+
+.ud .oversigt img {
+    width: 70%;
+    padding: 5%;
 }
 
 /* udlån */
